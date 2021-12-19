@@ -1,13 +1,111 @@
-body {
+*::before,::after{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181818;
+}
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.app-wrapper{
+  display: flex;
+}
+
+.news-feed{
+  color: white;
+  text-decoration: none;
+  background-color: #393e46;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0);
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  background-color: #393e46;
+  max-width: 300px;
+}
+
+.currency-converter{
+  background-color: #2a2438;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0);
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.exchange-rate{
+  background-color: #5c5470;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.input-box{
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0);
+  border: none;
+}
+
+button{
+  color: white;
+  background-color: #4d3b7a;
+  border: none;
+  float: center;
+  margin: 2px;
+  margin-top: 22px;
+  padding: 10px;
+  box-shadow: 0px 1px 4px #000000;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(87, 70, 129);
+
+}
+
+input ,.input1, select{
+  color: #000000;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+select{
+  cursor: pointer;
+}
+
+.input1:hover, select:hover{
+  background-color: #cfcfcf;
+  transition: 1s;
+}
+
+.nose{
+  color: white;
 }
