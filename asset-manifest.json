@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/money-dashboard/static/css/main.33013040.chunk.css",
+    "main.js": "/money-dashboard/static/js/main.a9faf954.chunk.js",
+    "main.js.map": "/money-dashboard/static/js/main.a9faf954.chunk.js.map",
+    "runtime-main.js": "/money-dashboard/static/js/runtime-main.c43f5cdc.js",
+    "runtime-main.js.map": "/money-dashboard/static/js/runtime-main.c43f5cdc.js.map",
+    "static/js/2.71f21e4e.chunk.js": "/money-dashboard/static/js/2.71f21e4e.chunk.js",
+    "static/js/2.71f21e4e.chunk.js.map": "/money-dashboard/static/js/2.71f21e4e.chunk.js.map",
+    "index.html": "/money-dashboard/index.html",
+    "static/css/main.33013040.chunk.css.map": "/money-dashboard/static/css/main.33013040.chunk.css.map",
+    "static/js/2.71f21e4e.chunk.js.LICENSE.txt": "/money-dashboard/static/js/2.71f21e4e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c43f5cdc.js",
+    "static/js/2.71f21e4e.chunk.js",
+    "static/css/main.33013040.chunk.css",
+    "static/js/main.a9faf954.chunk.js"
+  ]
+}
