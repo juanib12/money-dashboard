@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Test
+
+You can try this project [here](https://juanib12.github.io/money-dashboard/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
